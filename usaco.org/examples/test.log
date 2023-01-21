@@ -1,0 +1,46 @@
+solving...
+[1, 2, 3, 1, 1, 1]
+cur max 3, len 6
+yes sum 0
+mods plus one 1
+list len 5
+no sum 0
+no sum 1
+yes sum 2
+mods plus one 2
+list len 4
+yes sum 2
+mods plus one 3
+list len 3
+cur max 4, len 3
+done
+[3, 3, 3]
+3
+solving...
+[2, 2, 3]
+cur max 3, len 3
+no sum 0
+no sum 1
+cur max 4, len 3
+yes sum 0
+mods plus one 1
+list len 2
+no sum 0
+cur max 5, len 2
+no sum 0
+cur max 6, len 2
+no sum 0
+cur max 7, len 2
+yes sum 0
+mods plus one 2
+list len 1
+cur max 8, len 1
+done
+[7]
+2
+solving...
+[0, 0, 0, 0, 0]
+cur max 0, len 5
+done
+[0, 0, 0, 0, 0]
+0

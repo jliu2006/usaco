@@ -1,0 +1,18 @@
+def readFunction(read_path, write_path): 
+
+    f = open("data.in", "r")
+    fout = open("data.out", "w")
+    n = f.readline()
+    n_str = f.readline()
+
+    print(n)
+    print(n_str)
+
+    maximum = 0
+
+    for it in n_str.split(' '):
+        maximum = max(int(it), maximum)
+
+    fout.writelines(str(maximum))
+
+    print(f'%d'%maximum)
